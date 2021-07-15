@@ -3,7 +3,7 @@
 This python program extracts a table summary of European Union Road Safety Facts and Figures
 from a wikipedia webpage: https://en.wikipedia.org/wiki/Road_safety_in_Europe and save it into a csv-file named "road-safety.csv"
 
-The program also builds charts from the table with some analysis
+The program also builds charts from the table with for visualizations & analysis
 
 ## Build
 The program contains a wrangler package. The wrangler package uses the beautifulsoup4 library and pandas library.
@@ -13,7 +13,7 @@ It extracts the table in to pandas dataframe objectto be saved as a csv dataset 
 # Installation & Usage
 Make sure you have python3 or later installed
 open your terminal/command prompt
-git clone the repository: git clone
+git clone the repository: git clone https://github.com/jojoe-ainoo/data-wrangler.git
 run "cd" command to go into cloned repository: cd data-wrangler
 run "python3 run.py" to run test_wrangler file: python3 run.py
 

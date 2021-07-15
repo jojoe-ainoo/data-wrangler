@@ -1,0 +1,35 @@
+from setuptools import setup
+
+setup(
+    name='wrangler',
+    version='0.1.0',    
+    description='A data wrangler Python package',
+    url='https://github.com/jojoe-ainoo/data-wrangler.git',
+    author='Emmanuel Ainoo',
+    author_email='jojoeainoo@gmail.com',
+    license='BSD 2-clause',
+    packages=['wrangler'],
+    install_requires=['requests==2.25.1',
+                        'bs4==0.0.1',
+                        'beautifulsoup4==4.9.3',
+                        'lxml==4.6.3',
+                        'pandas==1.2.4',
+                        'matplotlib==3.4.1',
+                        'numpy==1.19.5',
+                        'pytest==6.2.4',
+                        'pytest-cov==2.12.1',
+                        'flake8==3.9.2'],
+
+    classifiers=[
+        'Development Status :: 1 - Planning',
+        'Intended Audience :: Science/Research',
+        'License :: OSI Approved :: BSD License',  
+        'Operating System :: POSIX :: Linux',        
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+    ],
+)

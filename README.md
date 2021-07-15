@@ -11,10 +11,14 @@ It extracts the table in to pandas dataframe objectto be saved as a csv dataset 
 
 
 # Installation & Usage
-Make sure you have python3 or later installed \n
+Make sure you have python3 or later installed
+
 open your terminal/command prompt
+
 git clone the repository: git clone https://github.com/jojoe-ainoo/data-wrangler.git
+
 run "cd" command to go into cloned repository: cd data-wrangler
+
 run "python3 run.py" to run test_wrangler file: python3 run.py
 
 The methods for the wrangler class can be reused by installing the wrangler package using pip.
